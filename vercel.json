@@ -1,0 +1,5 @@
+{
+  "installCommand": "npm install && npm install hexo-renderer-pug hexo-renderer-stylus --save",
+  "buildCommand": "hexo clean && hexo generate",
+  "outputDirectory": "public"
+}
