@@ -1,8 +1,0 @@
-!= partial('components/banner')
-
-.post-container
-  .post-main
-    != partial('pages/post/posts')
-
-    if page.toc || (theme.post.toc.enable && page.toc == undefined)
-      != partial('pages/post/toc')
