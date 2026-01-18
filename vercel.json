@@ -1,5 +1,9 @@
 {
-  "installCommand": "npm install && npm install hexo-renderer-pug hexo-renderer-stylus --save",
+  "installCommand": "npm install && npm install hexo-renderer-pug hexo-renderer-stylus hexo-renderer-ejs --save",
   "buildCommand": "hexo clean && hexo generate",
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "framework": null,
+  "env": {
+    "NODE_ENV": "production"
+  }
 }

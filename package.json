@@ -29,5 +29,18 @@
   },
   "devDependencies": {
     "hexo-cli": "^4.3.2"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryianwang/hexo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryianwang/hexo/issues"
+  },
+  "homepage": "https://github.com/ryianwang/hexo#readme",
+  "description": ""
 }
